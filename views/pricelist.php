@@ -42,9 +42,9 @@
    <!-- Navigační lišta -->
    <nav class="bg-white shadow-md">
    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
-    <a class="flex items-center text-2xl font-bold text-gray-800" href="/">
-     <img alt="Logo kadeřnictví, pár nůžek zkřížených přes hřeben" class="h-8 w-8 mr-2" src="/img/logo.png"/>
-     Salon AM Beauty
+   <a class="flex items-center text-2xl font-bold text-gray-800" href="/">
+     <img alt="Logo kadeřnictví, pár nůžek zkřížených přes hřeben" class="h-12 w-160 mr-2" src="/img/logo1.jpg"/>
+     
     </a>
     <div class="md:hidden">
      <button class="text-gray-800 focus:outline-none" id="menu-toggle">

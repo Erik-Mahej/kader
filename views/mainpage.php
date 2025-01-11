@@ -31,8 +31,8 @@
   <nav class="bg-white shadow-md">
    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
     <a class="flex items-center text-2xl font-bold text-gray-800" href="/">
-     <img alt="Logo kadeřnictví, pár nůžek zkřížených přes hřeben" class="h-8 w-8 mr-2" src="/img/logo.png"/>
-     Salon AM Beauty
+     <img alt="Logo kadeřnictví, pár nůžek zkřížených přes hřeben" class="h-12 w-160 mr-2" src="/img/logo1.jpg"/>
+     
     </a>
     <div class="md:hidden">
      <button class="text-gray-800 focus:outline-none" id="menu-toggle">
@@ -193,6 +193,7 @@
        123 Kadeřnictví St, Město, Země
       </p>
      </div>
+     <!--
      <div class="md:w-1/2 mt-8 md:mt-0">
       <form action="#" class="bg-white p-6 rounded-lg shadow-md" method="POST">
        <div class="mb-4">
@@ -218,6 +219,16 @@
         Odeslat zprávu
        </button>
       </form>
+     </div>
+      -->
+    </div>
+    <div class="mt-12">
+     <h3 class="text-3xl font-bold text-center text-gray-800 mb-8">
+      Naše poloha
+     </h3>
+     <div class="flex justify-center">
+      <iframe allowfullscreen="" class="w-full h-96 rounded-lg shadow-md" frameborder="0" loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019287509634!2d144.9630579153169!3d-37.8141079797517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577d1f9f1b1a1b!2s123%20Kade%C5%99nictv%C3%AD%20St%2C%20M%C4%9Bsto%2C%20Zem%C4%9B!5e0!3m2!1sen!2sus!4v1633072800000!5m2!1sen!2sus">
+      </iframe>
      </div>
     </div>
    </div>

@@ -29,9 +29,9 @@
   <!-- Navigační lišta -->
   <nav class="bg-white shadow-md">
    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
-    <a class="flex items-center text-2xl font-bold text-gray-800" href="/">
-     <img alt="Logo kadeřnictví, pár nůžek zkřížených přes hřeben" class="h-8 w-8 mr-2" src="/img/logo.png"/>
-     Salon AM Beauty
+   <a class="flex items-center text-2xl font-bold text-gray-800" href="/">
+     <img alt="Logo kadeřnictví, pár nůžek zkřížených přes hřeben" class="h-12 w-160 mr-2" src="/img/logo1.jpg"/>
+     
     </a>
     <div class="md:hidden">
      <button class="text-gray-800 focus:outline-none" id="menu-toggle">
@@ -148,6 +148,7 @@
        </li>
       </ul>
      </div>
+     <!--
      <div class="md:w-1/2 mt-8 md:mt-0">
       <form action="#" class="bg-white p-6 rounded-lg shadow-md" method="POST">
        <div class="mb-4">
@@ -174,6 +175,7 @@
        </button>
       </form>
      </div>
+     -->
     </div>
     <div class="mt-12">
      <h3 class="text-3xl font-bold text-center text-gray-800 mb-8">
