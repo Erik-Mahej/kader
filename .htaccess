@@ -1,0 +1,9 @@
+# Zapnutí modulu rewrite
+RewriteEngine On
+
+# Ignorovat požadavky na existující soubory a složky
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Přesměrovat všechny ostatní požadavky na index.php
+RewriteRule ^(.*)$ index.php [QSA,L]
