@@ -99,9 +99,11 @@
      <p class="mt-4 text-lg">
       Zažijte nejlepší střihy a styling ve městě
      </p>
+     <!--
      <a class="mt-6 inline-block bg-red-500 text-white py-2 px-4 rounded hover:bg-red-600" href="#">
       Rezervovat
      </a>
+      -->
     </div>
    </div>
   </section>
