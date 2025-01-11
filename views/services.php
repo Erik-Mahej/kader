@@ -12,7 +12,7 @@
   <style>
    body::before {
      content: '';
-     background-image: url('https://placehold.co/1920x1080');
+     background-image: url('/img/mrblbg.png');
      background-size: cover;
      background-attachment: fixed;
      position: fixed;
@@ -29,9 +29,9 @@
   <!-- Navigační lišta -->
   <nav class="bg-white shadow-md">
    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
-    <a class="flex items-center text-2xl font-bold text-gray-800" href="#">
-     <img alt="Logo kadeřnictví, pár nůžek zkřížených přes hřeben" class="h-8 w-8 mr-2" src="https://placehold.co/32x32"/>
-     Kadeřnictví
+    <a class="flex items-center text-2xl font-bold text-gray-800" href="/">
+     <img alt="Logo kadeřnictví, pár nůžek zkřížených přes hřeben" class="h-8 w-8 mr-2" src="/img/logo.png"/>
+     Salon AM Beauty
     </a>
     <div class="md:hidden">
      <button class="text-gray-800 focus:outline-none" id="menu-toggle">
@@ -41,22 +41,22 @@
     </div>
     <ul class="hidden md:flex space-x-4" id="menu">
      <li>
-      <a class="text-gray-600 hover:text-gray-800" href="#">
+      <a class="text-gray-600 hover:text-gray-800" href="/">
        Domů
       </a>
      </li>
      <li>
-      <a class="text-gray-600 hover:text-gray-800" href="#">
+      <a class="text-gray-600 hover:text-gray-800" href="/sluzby/">
        Služby
       </a>
      </li>
      <li>
-      <a class="text-gray-600 hover:text-gray-800" href="#">
-       O nás
+      <a class="text-gray-600 hover:text-gray-800" href="/cenik/">
+       Ceník
       </a>
      </li>
      <li>
-      <a class="text-gray-600 hover:text-gray-800" href="#">
+      <a class="text-gray-600 hover:text-gray-800" href="/kontakt/">
        Kontakt
       </a>
      </li>
@@ -65,22 +65,22 @@
    <div class="md:hidden" id="mobile-menu" style="display: none;">
     <ul class="flex flex-col space-y-2 px-4 py-2">
      <li>
-      <a class="text-gray-600 hover:text-gray-800" href="#">
+      <a class="text-gray-600 hover:text-gray-800" href="/">
        Domů
       </a>
      </li>
      <li>
-      <a class="text-gray-600 hover:text-gray-800" href="#">
+      <a class="text-gray-600 hover:text-gray-800" href="/sluzby/">
        Služby
       </a>
      </li>
      <li>
-      <a class="text-gray-600 hover:text-gray-800" href="#">
-       O nás
+      <a class="text-gray-600 hover:text-gray-800" href="/cenik/">
+       Ceník
       </a>
      </li>
      <li>
-      <a class="text-gray-600 hover:text-gray-800" href="#">
+      <a class="text-gray-600 hover:text-gray-800" href="/kontakt/">
        Kontakt
       </a>
      </li>
@@ -89,7 +89,7 @@
   </nav>
   <!-- Hlavní sekce -->
   <section class="relative">
-   <img alt="Stylový interiér kadeřnictví s moderním dekorem a pohodlným sezením" class="w-full h-96 object-cover" src="https://placehold.co/1920x600"/>
+   <img alt="Stylový interiér kadeřnictví s moderním dekorem a pohodlným sezením" class="w-full h-96 object-cover" src="/img/pic2.png"/>
    <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
     <div class="text-center text-white">
      <h1 class="text-4xl font-bold">
@@ -172,7 +172,7 @@
   <footer class="bg-gray-800 text-white py-6">
    <div class="container mx-auto px-4 text-center">
     <p>
-     © 2023 Kadeřnictví. Všechna práva vyhrazena.
+      Made By EM. © 2025 Salon AM Beauty.
     </p>
     <div class="mt-4">
      <a class="text-gray-400 hover:text-white mx-2" href="#">
@@ -180,15 +180,7 @@
       </i>
      </a>
      <a class="text-gray-400 hover:text-white mx-2" href="#">
-      <i class="fab fa-twitter">
-      </i>
-     </a>
-     <a class="text-gray-400 hover:text-white mx-2" href="#">
       <i class="fab fa-instagram">
-      </i>
-     </a>
-     <a class="text-gray-400 hover:text-white mx-2" href="#">
-      <i class="fab fa-linkedin-in">
       </i>
      </a>
     </div>
